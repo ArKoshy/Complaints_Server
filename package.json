@@ -1,0 +1,19 @@
+{
+  "name": "complaints_server",
+  "version": "1.0.0",
+  "description": "Server side of the Complaints forum",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Arun Koshy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.3"
+  }
+}
