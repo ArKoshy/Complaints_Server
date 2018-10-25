@@ -3,14 +3,24 @@
 var mongoose = require('mongoose'); 
 
 var Complaints = mongoose.model('Complaints',{
-username:{
+
+docKey:{
+    type:Number},       
+userName:{
     type:String,
-  //  required:true,
-    minlength:2},
-contact:{type:String},
-compType:{type:String},
-descr:{type:String},
-status:{type:String}
+    minlength:3},
+mobile:{
+    type:String},
+email:{
+    type:String},
+compType:{
+    type:String},
+descr:{
+    type:String},
+status:{
+    type:String},
+adminComment:{
+    type:String}
 })
 
 module.exports = {Complaints};
